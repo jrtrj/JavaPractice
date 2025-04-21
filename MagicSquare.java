@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MagicSquare{
     private Scanner sc = new Scanner(System.in); 
     int n;
-    private MagicSquare(int n) {
+    public MagicSquare(int n) {
         this.n = n;
     }
     private int[][] square = new int[n][n];
