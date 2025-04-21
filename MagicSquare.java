@@ -2,11 +2,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class MagicSquare{
     private Scanner sc = new Scanner(System.in); 
+    private int[][] square;
     int n;
     public MagicSquare(int n) {
         this.n = n;
+        this.square = new int[n][n];
     }
-    private int[][] square = new int[n][n];
     int value = 0;
     public void readSquare() {
         for(int i = 0; i < n;i++) {
