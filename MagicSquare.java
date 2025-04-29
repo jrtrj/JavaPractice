@@ -2,20 +2,18 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class MagicSquare{
     private Scanner sc = new Scanner(System.in); 
-    private int[][] square;
-    int n;
+    private List<String> strSquare = new ArrayList<>();
+    private List<List<Integer>> square = new ArrayList<>();
+    private int n;
     public MagicSquare(int n) {
         this.n = n;
-        this.square = new int[n][n];
     }
-    int value = 0;
+    System.out.println("Enter the square values");
     public void readSquare() {
         for(int i = 0; i < n;i++) {
-            for(int j = 0; j < n;j++) {
-                value = sc.nextInt();
-                value = square[i][j];            }
+            strSquare.add(sc.next());     
         }
-        if(value == "\n")
+        if()
             break;
     }
     private int[] sumRow = new int[n];
