@@ -7,8 +7,18 @@ public class Main {
         new printNumberBinOctHex(n);
         */
 
+        /* 2.
         int n = sc.nextInt();
         new normalizeAngle(n);
+        */
 
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        new sum3(
+                a,
+                b,
+                c
+        );
     }
 }
