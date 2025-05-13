@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.math.BigInteger;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -26,5 +27,11 @@ public class Main {
         /* 4.
        new largestAndSmallestDouble();
         */
+
+        /* 5.
+        new doubleToInt();
+         */
+        BigInteger n = BigInteger.valueOf(sc.nextInt());
+        System.out.println(Factorial.fact(n));
     }
 }
