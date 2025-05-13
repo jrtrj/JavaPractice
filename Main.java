@@ -12,6 +12,7 @@ public class Main {
         new normalizeAngle(n);
         */
 
+        /* 3.
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
@@ -20,5 +21,10 @@ public class Main {
                 b,
                 c
         );
+        */
+
+        /* 4.
+       new largestAndSmallestDouble();
+        */
     }
 }
