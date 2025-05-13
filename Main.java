@@ -1,9 +1,10 @@
-package org.example;
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        var lottery = new Lottery();
-        lottery.createArray();
-        lottery.findLottery();
+        Scanner sc = new Scanner(System.in);
+        /* 1. 
+        int n = sc.nextInt();
+        new printNumberBinOctHex(n);
+        */
     }
 }
