@@ -31,7 +31,15 @@ public class Main {
         /* 5.
         new doubleToInt();
          */
+
+        /* 6
         BigInteger n = BigInteger.valueOf(sc.nextInt());
         System.out.println(Factorial.fact(n));
+         */
+
+        new twoBetweenIntOps(18889,34534);
+        /* 7
+
+         */
     }
 }
