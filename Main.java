@@ -6,5 +6,9 @@ public class Main {
         int n = sc.nextInt();
         new printNumberBinOctHex(n);
         */
+
+        int n = sc.nextInt();
+        new normalizeAngle(n);
+
     }
 }
